@@ -5,12 +5,6 @@ var Lab = require('lab');
 var Sensors = require('../');
 
 
-
-// Declare internals
-
-var internals = {};
-
-
 // Test shortcuts
 
 var lab = exports.lab = Lab.script();
@@ -27,6 +21,16 @@ describe('Sensors', function () {
 
             var result = Sensors.parse('12;6;0;0;3;1.4\n');
             expect(result[0].subType).to.equal('S_LIGHT');
+            done();
+        });
+    });
+
+    describe('stringify()', function () {
+
+        it('stringifies an object', function (done) {
+
+            var startString = '12;6;0;0;3;1.4\n';
+            expect(Sensors.stringify(Sensors.parse(startString))).to.equal(startString);
             done();
         });
     });
