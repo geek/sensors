@@ -8,7 +8,7 @@ My Sensors serial parser
 
 ### parse
 
-Parse a string representation of mysensors serial protocol: http://www.mysensors.org/build/serial_api .  The resulting
+Parse a string representation of mysensors serial protocol: http://www.mysensors.org/build/serial_api.  The resulting
 is an array that looks like the following:
 
 ```js
