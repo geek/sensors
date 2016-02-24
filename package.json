@@ -1,10 +1,10 @@
 {
   "name": "sensors",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "My sensors serial parser",
   "main": "index.js",
   "scripts": {
-    "test": "make test-cov"
+    "test": "node node_modules/lab/bin/lab -m 5000 -t 100"
   },
   "repository": {
     "type": "git",
