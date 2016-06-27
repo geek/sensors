@@ -4,7 +4,7 @@
   "description": "My sensors serial parser",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -m 5000 -t 100"
+    "test": "lab -m 5000 -t 93"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/geek/sensors",
   "dependencies": {},
   "devDependencies": {
-    "code": "1.x.x",
-    "lab": "5.x.x"
+    "code": "3.x.x",
+    "lab": "10.x.x"
   }
 }
