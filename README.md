@@ -1,8 +1,9 @@
 sensors
 =======
 
-My Sensors serial parser
+[My Sensors](https://www.mysensors.org/) serial parser
 
+[![Build Status](https://secure.travis-ci.org/geek/sensors.svg)](http://travis-ci.org/geek/sensors)
 
 ## Methods
 
