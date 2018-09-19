@@ -20,7 +20,7 @@ describe('Sensors', function () {
         it('parses a single line', function (done) {
 
             var result = Sensors.parse('12;6;0;0;3;1.4\n');
-            expect(result[0].subType).to.equal('S_LIGHT');
+            expect(result[0].subType).to.equal('S_BINARY');
             done();
         });
     });
