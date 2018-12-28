@@ -2,9 +2,9 @@
   "name": "sensors",
   "version": "1.1.1",
   "description": "My sensors serial parser",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
-    "test": "lab -m 5000 -t 93"
+    "test": "lab -m 5000 -t 95 -L"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/geek/sensors",
   "dependencies": {},
   "devDependencies": {
-    "code": "3.x.x",
-    "lab": "10.x.x"
+    "code": "5.x.x",
+    "lab": "18.x.x"
   }
 }
